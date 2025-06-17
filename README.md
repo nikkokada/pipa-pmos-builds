@@ -27,7 +27,7 @@
 Default System Credentials
   
 - **Username:** `user`  
-- **Password:** `100105` (for initial setup)
+- **Password:** `147147` (for initial setup)
 
 
 ---
