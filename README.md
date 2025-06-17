@@ -1,7 +1,7 @@
 # 🧪 postmarketOS for Xiaomi Pad 6 (pipa)
 
 <div align="center">
-  <img src="images/gnome.png" alt="Xiaomi Pad 6"/>
+  <img src="gnome.png" alt="Xiaomi Pad 6"/>
   <p><em>Custom postmarketOS builds for Xiaomi Pad 6 (codename: pipa)</em></p>
 </div>
 
@@ -34,20 +34,18 @@ Default System Credentials
 
 ## 📦 Downloading Images
 
-<details>
-  <summary>GitHub Actions Artifacts</summary>
+GitHub Actions Artifacts
   
-  1. Visit our [Actions tab](https://github.com/rifux/pipa-pmos-builds/actions)   
-  2. Look for the latest workflow run (marked with 🟢)  
-  3. Download the desired image:
-     - `xiaomi-pipa-none_*.zip` (minimal system)
-     - `xiaomi-pipa-plasma_*.zip` (KDE Plasma)
-     - `xiaomi-pipa-gnome_*.zip` (GNOME Shell)
-     - `xiaomi-pipa-phosh_*.zip` (Phosh interface)
-     - `xiaomi-pipa-kernel_*.zip` (kernel packages)
+1. Visit our [Actions tab](https://github.com/rifux/pipa-pmos-builds/actions)   
+2. Look for the latest workflow run (marked with 🟢)  
+3. Download the desired image:
+  - `xiaomi-pipa-none_*.zip` (minimal system)
+  - `xiaomi-pipa-plasma_*.zip` (KDE Plasma)
+  - `xiaomi-pipa-gnome_*.zip` (GNOME Shell)
+  - `xiaomi-pipa-phosh_*.zip` (Phosh interface)
+  - `xiaomi-pipa-kernel_*.zip` (kernel packages)
   
-  *Note:* GitHub account required for downloads
-</details>
+*Note:* GitHub account required for downloads
 
 ---
 
