@@ -1,4 +1,4 @@
-name: Build pipa images
+name: Xiaomi Pad 6 postmarketOS
 on:
   push: # Build when push
   workflow_dispatch:
