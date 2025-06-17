@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Check out build configurations
         uses: actions/checkout@v4
+
+      - name: Set current date variable
+        run: echo "CURRENT_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
         
       - name: Create artifact directory
         run: |
@@ -58,7 +61,7 @@ jobs:
       - name: Upload artifacts xiaomi-pipa without DE
         uses: actions/upload-artifact@v4
         with:
-           name: xiaomi-pipa-none
+           name: xiaomi-pipa-none_${{ env.CURRENT_DATE }}
            path: out/*.img*
            retention-days: 7
 
@@ -82,7 +85,7 @@ jobs:
       - name: Upload artifacts xiaomi-pipa with KDE Plasma Desktop
         uses: actions/upload-artifact@v4
         with:
-           name: xiaomi-pipa-plasma
+           name: xiaomi-pipa-plasma_${{ env.CURRENT_DATE }}
            path: out/*.img*
            retention-days: 7
             
@@ -105,7 +108,7 @@ jobs:
       - name: Upload artifacts xiaomi-pipa with GNOME
         uses: actions/upload-artifact@v4
         with:
-           name: xiaomi-pipa-gnome
+           name: xiaomi-pipa-gnome_${{ env.CURRENT_DATE }}
            path: out/*.img*
            retention-days: 7
             
@@ -128,7 +131,7 @@ jobs:
       - name: Upload artifacts xiaomi-pipa with Phosh
         uses: actions/upload-artifact@v4
         with:
-           name: xiaomi-pipa-phosh
+           name: xiaomi-pipa-phosh_${{ env.CURRENT_DATE }}
            path: out/*.img*
            retention-days: 7
            
@@ -140,7 +143,7 @@ jobs:
       - name: Upload artifacts xiaomi-pipa kernel
         uses: actions/upload-artifact@v4
         with:
-           name: xiaomi-pipa-kernel
+           name: xiaomi-pipa-kernel_${{ env.CURRENT_DATE }}
            path: out/*.apk
            retention-days: 7
 
