@@ -46,7 +46,7 @@ jobs:
       - name: Build the xiaomi-pipa without DE
         run: |
            cp xiaomi-pipa.cfg ~/.config/pmbootstrap_v3.cfg
-           pmbootstrap install --password 100105
+           pmbootstrap install --password 147147
            pmbootstrap export
            cp /tmp/postmarketOS-export/boot.img out/boot-xiaomi-pipa.img
            cp /tmp/postmarketOS-export/xiaomi-pipa.img out/rootfs-xiaomi-pipa-none.img
@@ -69,7 +69,7 @@ jobs:
         run: |
            yes | pmbootstrap zap
            rm -r out/*
-           pmbootstrap install --password 100105 --add postmarketos-ui-plasma-desktop
+           pmbootstrap install --password 147147 --add postmarketos-ui-plasma-desktop
            cat /home/runner/.local/var/pmbootstrap/log.txt
            pmbootstrap export
            cp /tmp/postmarketOS-export/boot.img out/boot-xiaomi-pipa.img
@@ -93,7 +93,7 @@ jobs:
         run: |
            yes | pmbootstrap zap
            rm -r out/*
-           pmbootstrap install --password 100105 --add postmarketos-ui-gnome
+           pmbootstrap install --password 147147 --add postmarketos-ui-gnome
            pmbootstrap export
            cp /tmp/postmarketOS-export/boot.img out/boot-xiaomi-pipa.img
            cp /tmp/postmarketOS-export/xiaomi-pipa.img out/rootfs-xiaomi-pipa-gnome.img
@@ -116,7 +116,7 @@ jobs:
         run: |
            yes | pmbootstrap zap
            rm -r out/*
-           pmbootstrap install --password 100105 --add postmarketos-ui-phosh
+           pmbootstrap install --password 147147 --add postmarketos-ui-phosh
            pmbootstrap export
            cp /tmp/postmarketOS-export/boot.img out/boot-xiaomi-pipa.img
            cp /tmp/postmarketOS-export/xiaomi-pipa.img out/rootfs-xiaomi-pipa-phosh.img
