@@ -41,7 +41,6 @@ GitHub Actions Artifacts
   - `xiaomi-pipa-none_*.zip` (minimal system)
   - `xiaomi-pipa-plasma_*.zip` (KDE Plasma)
   - `xiaomi-pipa-gnome_*.zip` (GNOME Shell)
-  - `xiaomi-pipa-phosh_*.zip` (Phosh interface)
   - `xiaomi-pipa-kernel_*.zip` (kernel packages)
   
 *Note:* GitHub account required for downloads
