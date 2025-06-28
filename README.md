@@ -11,8 +11,7 @@
 
 - **Supported Desktop Environments**  
   * KDE Plasma Desktop  
-  * GNOME Shell  
-  * Phosh (mobile interface)  
+  * GNOME Shell
   * Minimal base system (no DE)
 
 - **Automated Builds**  
