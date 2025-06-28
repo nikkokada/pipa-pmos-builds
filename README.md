@@ -81,7 +81,7 @@ Check out our [Wiki](https://github.com/rifux/pipa-pmos-builds/wiki)  for:
 
 --- -->
 
-## 🤝 Contribution Guidelines
+<!-- ## 🤝 Contribution Guidelines
 
 We welcome contributions! Please see our [Contribution Guide](CONTRIBUTING.md) for:
 - Reporting issues
@@ -89,7 +89,7 @@ We welcome contributions! Please see our [Contribution Guide](CONTRIBUTING.md) f
 - Building custom configurations
 - Improving documentation
 
----
+--- -->
 
 > 🚀 *postmarketOS: A long-lasting, touch-optimized Linux distribution for mobile devices*
 
